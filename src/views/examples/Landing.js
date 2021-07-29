@@ -81,14 +81,16 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        i'm excited about AI technology{" "}
+                        <span>and how to use it to make 
+                          our life much easier
+                        </span>
                       </h1>
-                      <p className="lead text-white">
+                      {/* <p className="lead text-white">
                         The design system comes with four pre-built pages to
                         help you get started faster. You can change the text and
                         images and you're good to go.
-                      </p>
+                      </p> */}
                       <div className="btn-wrapper">
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
@@ -144,18 +146,21 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                          <div>
+                          <img src ="https://via.placeholder.com/275x75/ddd"/>
+                          {/* <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
                             <i className="ni ni-check-bold" />
-                          </div>
+                          </div> */}
+                         
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            JOstainable Project
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            wep application to buy and exchange used and eco friendly
+                            item and make online shopping much
+                            easier to user.
                           </p>
-                          <div>
+                          
                             <Badge color="primary" pill className="mr-1">
                               design
                             </Badge>
@@ -180,16 +185,18 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                        <img src ="https://via.placeholder.com/275x75/ddd"/>
+
+                          {/* <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
                             <i className="ni ni-istanbul" />
-                          </div>
+                          </div> */}
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            riding application to people with special needs
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            301 - future project
+                             an application to delever people with special needs
+                            from everywhere to any place with best Services
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
@@ -216,16 +223,19 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                        <img src ="https://via.placeholder.com/275x75/ddd"/>
+
+                          {/* <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
                             <i className="ni ni-planet" />
-                          </div>
+                          </div> */}
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            Hospital Manager
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                             401 - future project
+                             an application to make most of hospital services online
+                             like Entry procedures, medication prescriptions and sending tests and results
+                           
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
