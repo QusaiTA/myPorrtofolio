@@ -265,7 +265,9 @@ class Landing extends React.Component {
             </Container>
           </section>
           <section className="section section-lg">
-            <Container>
+            <p> This is my first time talking about my self to video</p>
+            <a href = "https://drive.google.com/file/d/1X3utuNgucGkYsHAtkwuouQ9NQKElr6Yt/view?usp=sharing" >My Personal pitch </a>
+            {/* <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="6">
                   <img
@@ -273,8 +275,8 @@ class Landing extends React.Component {
                     className="img-fluid floating"
                     src={promo1}
                   />
-                </Col>
-                <Col className="order-md-1" md="6">
+                </Col> */}
+                {/* <Col className="order-md-1" md="6">
                   <div className="pr-md-5">
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="ni ni-settings-gear-65" />
@@ -337,9 +339,9 @@ class Landing extends React.Component {
                       </li>
                     </ul>
                   </div>
-                </Col>
-              </Row>
-            </Container>
+                </Col> */}
+              {/* </Row>
+            </Container> */}
           </section>
           <section className="section bg-secondary">
             <Container>
@@ -351,7 +353,7 @@ class Landing extends React.Component {
                       src={cardImg}
                       top
                     />
-                    <blockquote className="card-blockquote">
+                    {/* <blockquote className="card-blockquote">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="svg-bg"
@@ -376,7 +378,7 @@ class Landing extends React.Component {
                         sea-ice then thaws every summer, and that process will
                         continue whatever happens.
                       </p>
-                    </blockquote>
+                    </blockquote> */}
                   </Card>
                 </Col>
                 <Col md="6">
@@ -384,13 +386,12 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
                       <i className="ni ni-settings" />
                     </div>
-                    <h3>Our customers</h3>
+                    <h3>My Personal pitch</h3>
                     <p className="lead">
-                      Don't let your uses guess by attaching tooltips and
-                      popoves to any element. Just make sure you enable them
-                      first via JavaScript.
+                    This is my first time talking about my self to video
                     </p>
-                    <p>
+                    <a href = "https://drive.google.com/file/d/1X3utuNgucGkYsHAtkwuouQ9NQKElr6Yt/view?usp=sharing" >Go here</a>
+                    {/* <p>
                       The kit comes with three pre-built pages to help you get
                       started faster. You can change the text and images and
                       you're good to go.
@@ -399,14 +400,14 @@ class Landing extends React.Component {
                       The kit comes with three pre-built pages to help you get
                       started faster. You can change the text and images and
                       you're good to go.
-                    </p>
-                    <a
+                    </p> */}
+                    {/* <a
                       className="font-weight-bold text-warning mt-5"
                       href="#pablo"
                       onClick={e => e.preventDefault()}
                     >
                       A beautiful UI Kit for impactful websites
-                    </a>
+                    </a> */}
                   </div>
                 </Col>
               </Row>
@@ -796,7 +797,7 @@ class Landing extends React.Component {
               </svg>
             </div>
           </section>
-          <section className="section section-lg pt-lg-0 section-contact-us">
+          {/* <section className="section section-lg pt-lg-0 section-contact-us">
             <Container>
               <Row className="justify-content-center mt--300">
                 <Col lg="8">
@@ -870,7 +871,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
+          </section> */}
           <Download />
         </main>
         <CardsFooter />
