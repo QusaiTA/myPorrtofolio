@@ -265,8 +265,8 @@ class Landing extends React.Component {
             </Container>
           </section>
           <section className="section section-lg">
-            <p> This is my first time talking about my self to video</p>
-            <a href = "https://drive.google.com/file/d/1X3utuNgucGkYsHAtkwuouQ9NQKElr6Yt/view?usp=sharing" >My Personal pitch </a>
+            {/* <p> This is my first time talking about my self to video</p>
+            <a href = "https://drive.google.com/file/d/1X3utuNgucGkYsHAtkwuouQ9NQKElr6Yt/view?usp=sharing" >My Personal pitch </a> */}
             {/* <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="6">
