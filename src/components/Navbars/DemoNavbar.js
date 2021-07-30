@@ -130,17 +130,18 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com/creativetim"
+                      href="https://www.linkedin.com/in/qusai-tashtosh-08378419b/"
                       id="tooltip333589074"
                       target="_blank"
                     >
-                      <i className="fa fa-facebook-square" />
+                      <img src="Linkedin In Icon _ Font Awesome.html"></img>
+                      {/* <i className="fa fa-facebook-square" /> */}
                       <span className="nav-link-inner--text d-lg-none ml-2">
-                        Facebook
+                        Linkdin
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip333589074">
-                      Like us on Facebook
+                      Follow Me on Linkdin
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
