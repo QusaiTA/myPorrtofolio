@@ -128,18 +128,29 @@ class DemoNavbar extends React.Component {
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                   <NavItem>
+                    {/* <NavLink
+                      className="nav-link-icon"
+                      href="https://www.linkedin.com/in/qusai-tashtosh-08378419b/"
+                      id="tooltip333589074"
+                      target="_blank"
+                    >
+                      <i className="fa fab fa-linkedin-in" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Linkdin
+                      </span>
+                    </NavLink> */}
                     <NavLink
                       className="nav-link-icon"
                       href="https://www.linkedin.com/in/qusai-tashtosh-08378419b/"
                       id="tooltip333589074"
                       target="_blank"
                     >
-                      <img src="Linkedin In Icon _ Font Awesome.html"></img>
-                      {/* <i className="fa fa-facebook-square" /> */}
+                      <i className="fa fab fa-linkedin" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
-                        Linkdin
+                        Linkedin
                       </span>
                     </NavLink>
+
                     <UncontrolledTooltip delay={0} target="tooltip333589074">
                       Follow Me on Linkdin
                     </UncontrolledTooltip>
@@ -147,7 +158,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.instagram.com/creativetimofficial"
+                      href="https://www.instagram.com/qusai_tashtosh/"
                       id="tooltip356693867"
                       target="_blank"
                     >
@@ -192,6 +203,7 @@ class DemoNavbar extends React.Component {
                       Star us on Github
                     </UncontrolledTooltip>
                   </NavItem>
+                  
                   
                 </Nav>
               </UncontrolledCollapse>
